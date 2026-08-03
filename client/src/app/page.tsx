@@ -1,8 +1,9 @@
 'use client'
 
+import { redirect } from 'next/navigation'
+
 function connectGitHub() {
-  window.location.href =
-    'https://github.com/apps/branch-radar/installations/new'
+  redirect('https://github.com/apps/branch-radar/installations/new')
 }
 
 export default function Home() {

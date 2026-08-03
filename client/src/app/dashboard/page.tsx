@@ -1,3 +1,4 @@
+import { DashboardHeader } from '@/components/dashboard'
 import { cookies } from 'next/headers'
 
 export default async function Page() {
@@ -7,5 +8,9 @@ export default async function Page() {
 
   console.log('session is', session)
 
-  return <div>Dashboard</div>
+  return (
+    <main>
+      <DashboardHeader />
+    </main>
+  )
 }
