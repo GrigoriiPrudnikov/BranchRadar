@@ -19,7 +19,7 @@ interface ButtonProps {
 function BranchesFilterButton({ text, active, onClick }: ButtonProps) {
   return (
     <button
-      className={(active ? 'text-black' : 'text-neutral-400') + ''}
+      className={active ? 'text-black' : 'text-muted-foreground'}
       onClick={onClick}
     >
       {text}

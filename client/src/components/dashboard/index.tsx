@@ -1,5 +1,7 @@
+export * from './badge'
 export * from './branchesFilter'
 export * from './branchesSearchSection'
+export * from './branchesTableSection'
 export * from './deleteSection'
 export * from './header'
 export * from './statCard'

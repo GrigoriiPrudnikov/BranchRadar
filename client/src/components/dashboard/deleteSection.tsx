@@ -3,7 +3,7 @@ import { Button, Card, Checkbox } from '../ui'
 export function DeleteSection() {
   return (
     <Card className='h-16 flex-row justify-between items-center px-4'>
-      <div className='flex gap-2'>
+      <div className='flex gap-4'>
         <Checkbox className='h-5 w-5' />
         <p>12* Branches</p>
       </div>

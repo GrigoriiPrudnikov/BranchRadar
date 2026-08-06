@@ -1,5 +1,6 @@
 import {
   BranchesSearchSection,
+  BranchesTableSection,
   DeleteSection,
   Header,
 } from '@/components/dashboard'
@@ -19,6 +20,7 @@ export default async function Page() {
       <StatCardsSection />
       <BranchesSearchSection />
       <DeleteSection />
+      <BranchesTableSection />
     </main>
   )
 }
