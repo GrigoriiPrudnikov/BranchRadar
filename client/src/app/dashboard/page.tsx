@@ -1,4 +1,5 @@
-import { DashboardHeader } from '@/components/dashboard'
+import { BranchesSearchSection, Header } from '@/components/dashboard'
+import { StatCardsSection } from '@/components/dashboard/statCardsSection'
 import { cookies } from 'next/headers'
 
 export default async function Page() {
@@ -9,8 +10,10 @@ export default async function Page() {
   console.log('session is', session)
 
   return (
-    <main>
-      <DashboardHeader />
+    <main className='space-y-8'>
+      <Header />
+      <StatCardsSection />
+      <BranchesSearchSection />
     </main>
   )
 }

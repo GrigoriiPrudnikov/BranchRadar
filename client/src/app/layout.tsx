@@ -37,7 +37,7 @@ export default function RootLayout({
         inter.variable,
       )}
     >
-      <body className='min-h-full dark flex flex-col w-11/12 mx-auto mt-20'>
+      <body className='min-h-full flex flex-col w-11/12 mx-auto mt-20'>
         {children}
       </body>
     </html>
