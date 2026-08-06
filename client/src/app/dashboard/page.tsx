@@ -1,4 +1,8 @@
-import { BranchesSearchSection, Header } from '@/components/dashboard'
+import {
+  BranchesSearchSection,
+  DeleteSection,
+  Header,
+} from '@/components/dashboard'
 import { StatCardsSection } from '@/components/dashboard/statCardsSection'
 import { cookies } from 'next/headers'
 
@@ -10,10 +14,11 @@ export default async function Page() {
   console.log('session is', session)
 
   return (
-    <main className='space-y-8'>
+    <main className='space-y-4'>
       <Header />
       <StatCardsSection />
       <BranchesSearchSection />
+      <DeleteSection />
     </main>
   )
 }

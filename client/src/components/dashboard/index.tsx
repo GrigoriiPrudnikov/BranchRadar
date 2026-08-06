@@ -1,5 +1,6 @@
 export * from './branchesFilter'
 export * from './branchesSearchSection'
+export * from './deleteSection'
 export * from './header'
 export * from './statCard'
 export * from './statCardsSection'

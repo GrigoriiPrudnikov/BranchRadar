@@ -39,7 +39,7 @@ export function BranchesSearchSection({
   ]
 
   return (
-    <Card className='flex-row justify-between items-center px-4'>
+    <Card className='h-16 flex-row justify-between items-center px-4'>
       <div className='flex gap-4'>
         <Input placeholder='Search for branches' />
         <Select items={items} defaultValue={items[0].value}>
